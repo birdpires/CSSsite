@@ -1,0 +1,31 @@
+body {
+background-image: radial-gradient(circle at 50% 50%, #ff799c 0, #ff699c 16.67%,
+#f05497 33.33%, #d8358f 50%, #be0788 66.67%, #a70085 83.33%, #930088 100%);
+}
+/* Usei o sistema hexadecimal de uma forma mais "completa", utilizando o sistema gradient pra deixar o fundo degradê. 
+como fiz isso? escolhi o modelo de circulo e coloquei padrão de 50% para 50% (100 no total), depois eu fui diluindo 
+esse valor nas cores, assim, as mais claras (que ficam no centro) vão tendo uma porcentagem menor enquanto as que vêm 
+depois vão tendo uma porcentagem maior para ficarem mais escuras e dar certo o contraste. */
+
+
+input {
+    color: #7B68EE;
+    font-size:150%;
+    width: 480px;
+    height: 100px;
+    border:5px solid #000000;
+}
+/* Aqui eu fiz os comandos pro botão ficar do tamanho que eu queria com a cor da letra que eu queria (que está em 
+hexadecimal), etc. */
+
+div{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 360px;
+    height: 120px;
+    margin: auto;
+}
+/* Aqui foi pra centralizar tudo isso apenas pra centralizar uma div, quase coringuei e fui de americanas */
